@@ -3,13 +3,20 @@ const express = require('express')
 port = 4000
 const app = express()
 
+app.get('/github' , (req,res) => {
+    res.json({
+        classs: "nemw",
+        newwe: "cpp",
+        ghn:"bnm",
+})
+})
 
 app.get('/' , (req,res) => {
     res.send('hello worlrrd')
 })
 
 app.get('/twitter' , (req,res) => {
-    res.send("hello there how are u ")
+    res.send()
 })
 
 app.get('/youtube' , (req,res) => {
